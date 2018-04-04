@@ -1,0 +1,110 @@
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #ddff00;
+}
+#menu{
+    position: fixed;
+    top: 50px;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    height:700px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/uceva3.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textoDiv{
+    height:1000px;background-color:red;font-size:36px
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/cable.jpg");
+  /* Full height */
+    height: 100%;
+
+
+}
+
+.bgimg-2 {
+  background-image: url("../images/conocenos.jpg");
+  height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("../images/earth.jpeg");
+  height: 100%;
+}
+
+.bgimg-4 {
+  background-image: url("../images/infoverde.jpg");
+  height: 100%;
+}
+
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+h1{
+    background-color:#00a623;
+    color:#ffffff;
+    width:100%;
+    padding:10px;
+}
+#container {
+   	min-width: 310px;
+	max-width: 800px;
+	height: 400px;
+	margin: 0 auto
+}
+#CO2e {
+   	min-width: 310px;
+	max-width: 800px;
+	height: 400px;
+	margin: 0 auto
+}
+#conocenos {
+   	min-width: 310px;
+	max-width: 800px;
+	height: 400px;
+	margin: 0 auto
+}
+/* Turn off parallax scrolling for tablets and phones
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4{
+        background-attachment: scroll;
+    }
+}*/
+
